@@ -1,0 +1,20 @@
+<snippet>
+  <content><![CDATA[
+# Database config
+\$g_hostname               = '${1:localhost}';
+\$g_db_type                = '${2:mysqli}';
+\$g_database_name          = '${3:bugtracker}';
+\$g_db_username            = '${4:root}';
+\$g_db_password            = '$5';
+
+# Salt to use for generating random tokens
+\$g_crypto_master_salt     = '${6:put-your-unique-randomly-generated-salt-message-here}';
+
+$0
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>mantis-config-database</tabTrigger>
+  <description>Configuration options for MantisBT database</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.php</scope>
+</snippet>
