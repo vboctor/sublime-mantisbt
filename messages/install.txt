@@ -1,0 +1,3 @@
+Thanks for installing sublime plugin for MantisBT developers and administrators!
+
+If you have any questions or issues, please log an issue at: http://www.github.com/vboctor/sublime-mantisbt/
