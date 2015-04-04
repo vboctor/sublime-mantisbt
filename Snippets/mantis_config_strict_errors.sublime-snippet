@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[# Enable strict error checking - useful for development mode
+\$g_show_detailed_errors = ON;
+\$g_display_errors = array(
+	E_USER_ERROR   => DISPLAY_ERROR_HALT,
+	E_WARNING      => DISPLAY_ERROR_HALT,
+	E_ALL          => DISPLAY_ERROR_HALT,
+);
+
+$0]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>mantis-config-strict-errors</tabTrigger>
+  <description>Enable strict error checking for MantisBT</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.php</scope>
+</snippet>
